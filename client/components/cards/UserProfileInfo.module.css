@@ -1,0 +1,40 @@
+.infoContainer {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.infoContainerDark {
+    border-radius: 21px;
+    background: #000000;
+    box-shadow:  15px 15px 34px #000000,
+                 -15px -15px 34px #000000;
+  padding: 10%;
+  width: 100%;
+  border: 1px solid rgb(99, 99, 99);
+  height: 100%;
+}
+
+.headerInfo h2 {
+  line-height: 80%;
+  color: rgb(0, 0, 0);
+}
+.headerInfo h6 {
+  color: gray;
+  line-height: 100%;
+}
+.headerInfoDark h2 {
+  line-height: 80%;
+  color: #e7e7e7;
+}
+
+.about {
+  color: rgb(35, 35, 35);
+  font-size: larger;
+}
+.aboutDark {
+  color: rgb(152, 152, 152);
+  font-size: larger;
+}

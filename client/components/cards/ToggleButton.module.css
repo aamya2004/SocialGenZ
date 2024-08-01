@@ -1,0 +1,57 @@
+/* ToggleButton.module.css */
+.toggleContainer {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    position: fixed;
+    top: 0%;
+  }
+  
+  .toggleCheckbox {
+    display: none;
+  }
+  
+  .toggleLabel {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  
+  .toggleLabel:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .toggleCheckbox:checked + .toggleLabel {
+    background-color: #4cd137;
+  }
+  
+  .toggleCheckbox:checked + .toggleLabel:before {
+    transform: translateX(30px);
+  }
+  
+  .toggleInner {
+    display: none;
+  }
+  
+  .toggleSwitch {
+    display: none;
+  }
+  
+  .icon {
+    font-size: 20px;
+  }
+  

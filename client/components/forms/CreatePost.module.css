@@ -1,0 +1,70 @@
+.card {
+    height: 10%;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.darkCard{
+    height: 10%;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 12px;
+}
+
+.cardBody {
+    display: flex;
+    align-items: center; 
+    width: 100%;
+}
+
+.profileImg {
+    height: 8%;
+    width: 8%;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.postingForm {
+    width: 100%;
+    height: 100%;
+}
+
+.postTextArea {
+    width: 100%;
+    resize: none;
+    height: 3rem;
+    background-color: transparent;
+    border: none;
+    padding: 2%;
+
+}
+
+.postTextArea:focus{
+    outline: none;
+}
+
+.attachmentDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1%;
+}
+
+.postButton{
+    padding: 0.2% 2%;
+    border-radius: 7px;
+}
+
+.postButtonDark{
+    padding: 0.2% 2%;
+    border-radius: 7px;
+    background-color: rgb(3, 155, 215);
+    border: 1px solid rgb(186, 186, 186);
+}
